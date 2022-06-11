@@ -1,0 +1,23 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIASAGU7LWIE6JDGPZE
+      secret-key: 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
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+    dynamo-db:
+      service-endpoint: dynamodb.us-east-1.amazonaws.com
+
+application:
+  bucket:
+    name: sv-offersbucket
+
+spring:
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 9090
